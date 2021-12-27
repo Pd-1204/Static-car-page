@@ -1,0 +1,476 @@
+/* default css start */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'MBCorpoATitleCond-Regular-Web, DaimlerCAC-Regular, Helvetica, Arial, sans-serif';
+  src:  url('myfont.woff2') format('woff2'),
+        url('myfont.woff') format('woff');
+}
+  body{
+    font-family: 'MBCorpoATitleCond-Regular-Web, DaimlerCAC-Regular, Helvetica, Arial, sans-serif', MBCorpoATitleCond-Regular-Web;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+ .logo-title{
+     color: white;
+     font-size: large;
+     margin-right: 730px;
+     margin-top: 30px;
+ }
+  .container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .container .name{
+      margin-right: 900px;
+      margin-top: 60px;
+      font-family: MBCorpoATitleCond-Regular-Web, DaimlerCAC-Regular, Helvetica, Arial, sans-serif;
+      color: #ffff;
+  }
+   h1{
+      font-size: 50px;
+      font-weight: 800;
+      line-height: 50px;
+  }
+  
+  .header-area {
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)),
+    url("https://www.mercedes-benz.com/en/vehicles/passenger-cars/amg-gt/_jcr_content/root/fullscreenstage/image/MQ7-0-image-20200102142638/01-mercedes-benz-vehicles-mercedes-amg-gt-br190-3400x1480.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  /* default css end */
+  
+  /* buttons*/
+  .buttons{
+      margin-top: 30px;
+    margin-right: 900px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .book{
+      padding: 20px;
+      border-radius: 5px;
+      background-color: #A6A9B6;
+      font-size: 15px;
+     margin-right: 20px;
+     transition: 0.3s;
+     border: 3px solid grey;
+     box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 0px;
+  text-shadow: none;
+  -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+          transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+  outline-color: rgba(255, 255, 255, 0.5);
+  outline-offset: 0px;
+  }
+  
+ 
+  .contact{
+    padding: 20px;
+    font-size: 15px;
+      border-radius: 5px;
+      background-color: #A6A9B6;
+      border: 3px solid grey;
+      transition: 0.3s;
+      border: 3px solid grey;
+     box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 0px;
+  text-shadow: none;
+  -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+          transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+  outline-color: rgba(255, 255, 255, 0.5);
+  outline-offset: 0px;
+  }
+ .book:hover{
+    background-color: black;
+    color: white;
+    
+    border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+  outline-offset: 15px;
+  outline-color: rgba(255, 255, 255, 0);
+  text-shadow: 1px 1px 2px #427388;
+    
+ }
+ .contact:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+  outline-offset: 15px;
+  outline-color: rgba(255, 255, 255, 0);
+  text-shadow: 1px 1px 2px #427388;
+ }
+  /* navbar regular css start */
+  .navbar-area {
+    background:black;
+    border-bottom: 1px solid #000;
+  }
+  .site-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .site-navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  .site-navbar ul li a {
+    color: #fff;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .site-navbar ul li a:hover {
+    background: rgba(255,255,255,.3);
+  }
+  /* navbar regular css end */
+  
+  /* specification*/
+ .specification{
+    margin-top: 300px;
+     display: flex;
+    
+    justify-content: space-evenly;
+     align-items: flex-start;
+     
+ }
+ .specification h2 {
+    font-size: 25px;
+    font-weight: 300;
+   line-height: 20px;
+   padding: 10px;
+    color: #fff;
+  }
+.border{
+      border-radius: 10%;
+      
+      margin: 5px;
+  
+      
+  }
+  
+  /* nav-toggler css start */
+  .nav-toggler {
+    border: 3px solid #fff;
+    padding: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    height: 39px;
+    display: none;
+  }
+  .nav-toggler span, 
+  .nav-toggler span:before, 
+  .nav-toggler span:after {
+    width: 28px;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+    transition: .3s;
+  }
+  .nav-toggler span:before {
+    content: '';
+    transform: translateY(-9px);
+  }
+  .nav-toggler span:after {
+    content: '';
+    transform: translateY(6px);
+  }
+  .nav-toggler.toggler-open span {
+    background-color: transparent;
+  }
+  .nav-toggler.toggler-open span:before {
+    transform: translateY(0px) rotate(45deg);
+  }
+  .nav-toggler.toggler-open span:after {
+    transform: translateY(-3px) rotate(-45deg);
+  }
+  /* nav-toggler css start */
+  
+  
+  /* intro-area css start */
+  .intro-area {
+    height: calc(100vh - 61px);
+   
+    text-align: center;
+    color: #fff;
+  }
+ 
+  
+  /* intro-area css end */
+  
+  
+  
+
+.form-section{
+  background-image: url("https://www.mercedes-benz.com/en/vehicles/passenger-cars/amg-gt/mercedes-amg-gt-black-series/_jcr_content/root/slider_copy/sliderchilditems/slideritem/image/MQ7-0-image-20200714232613/04-mercedes-amg-gt-black-series-br190-2021-3400x1440.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.9)),
+}
+  .appointment-flex-item{
+    background: #050505;
+    color: rgb(12, 12, 12);
+    height: 450px;
+    width: 45%;
+    padding: 0px;
+    margin: 20px 0px;
+    overflow: hidden;
+}
+
+
+.appointment-text{
+     padding: 200px 20px;
+     font-size: 50px;
+     background: rgba(0, 0, 0, 0.5);
+}
+.appointment-form{
+    padding: 20px;
+    
+}
+.appointment-form input, textarea{
+    width: 35%;
+    max-width: 35%;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    text-align: center;
+    color: #060707;
+    font-size: 20px;
+    background-color: #9c9fa1;
+    border:  2px solid black;
+}
+.appointment-form ::placeholder{
+  color: #050505;
+}
+.appointment-form textarea{
+    height: 100px;
+    max-height: 100px;
+    max-width: 35%;
+    width: 35%;
+    overflow-y: scroll;
+}
+.appointment-btn{
+    border: 2px solid rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: #9c9fa1;
+    color: #000;
+    padding: 20px;
+    outline: none;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 35%;
+    
+}
+.appointment-btn:hover{
+    background-color: black;
+    color: white;
+}
+.last{
+  margin-left: 1300px;
+  color: rgb(14, 13, 13);
+  line-height: 30px;
+}
+
+.form-heading{
+  margin-left: 50px;
+ text-decoration: underline;
+ color: rgb(7, 7, 7);
+ 
+}
+/*testimonial*/
+.test-heading{
+  display: flex;
+  justify-content: center;
+ 
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #838996;
+}
+.customer-testimonial{
+  display: flex;
+  justify-content: center;
+  background-color: #838996;
+}
+.test-container {
+  position : relative;
+  width : 1100px;
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  flex-wrap : wrap;
+  padding : 30px;  
+}
+
+.test-container .card {
+  position: relative;
+  max-width : 300px;
+  height : 215px;  
+  
+  margin : 30px 10px;
+  padding : 20px 15px;
+  background-color: rgb(61, 60, 60);
+  display : flex;
+  flex-direction : column;
+  box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+  transition : 0.3s ease-in-out;
+  border-radius : 15px;
+}
+.test-container .card:hover {
+  height : 350px;    
+}
+
+
+.test-container .card .image {
+  position : relative;
+  width : 260px;
+  height : 300px;
+  
+  top : -40%;
+  left: 8px;
+  box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+  z-index : 1;
+}
+
+.test-container .card .image img {
+  max-width : 100%;
+  border-radius : 15px;
+  max-height: 100%;
+}
+
+.test-container .card .content {
+  position : relative;
+  top : -140px;
+  padding : 10px 15px;
+  color : rgb(49, 47, 47);
+  text-align : center;
+  
+  visibility : hidden;
+  opacity : 0;
+  transition : 0.3s ease-in-out;
+    
+}
+.test-container .card:hover img{
+  transform: translate(-20px, -40px) rotate(-15deg) scale(1.5);
+}
+
+.test-container .card:hover .content {
+   margin-top : 30px;
+   visibility : visible;
+   opacity : 1;
+   transition-delay: 0.2s;
+    color: white;
+    font-size: 18px;
+}
+
+
+/* mobile breakpoint start */
+@media screen and (max-width: 767px) {
+  
+  .site-navbar img{
+    max-width: 760px;
+
+  }
+  .container{
+    width: 100%;
+  }
+   /*intro area*/
+   .intro-area .container{
+     width: 720px;
+     
+     max-width: 100%;
+   }
+   .name{
+     font-size: 40px;
+   }
+   .book , .contact{
+     font-size: 10px;
+     margin: 5px;
+     padding: 10px;
+   }
+   .specification{
+     margin-top: 15px;
+    flex-direction: column;
+    width: 100%;
+
+   }
+   .border{
+    border: 1px solid gray;
+   }
+   .border h2{
+     font-size: 20px;
+   }
+   .customer-testimonial{
+     flex-direction: column;
+     width: fit-content;
+     justify-content: flex-start;
+     
+   }
+   .test-heading{
+     font-size: 25px;
+   }
+   .testimonial{
+     max-width: fit-content;
+   }
+   .test-container .card:hover img{
+    transform: translate(-20px, -40px) rotate(-15deg) scale(1);
+  }
+  .appointment-container, .appointment-form, .form-heading{
+    width: fit-content;
+    max-width: fit-content;
+  }
+  .appointment-form input, textarea{
+    width: fit-content;
+    font-size: 15px;
+    max-width: 100%;
+  }
+  .appointment-form textarea{
+    max-width: 100%;
+    width: fit-content
+  }
+  .form-heading h1{
+    font-size: 30px;
+  }
+  .appointment-btn{
+    width: fit-content;
+    max-width: 100%;
+  }
+
+  .header-area {
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)),
+    url("https://www.mercedes-benz.com/en/vehicles/passenger-cars/amg-gt/_jcr_content/root/fullscreenstage/image/MQ7-0-image-20200102142638/01-mercedes-benz-vehicles-mercedes-amg-gt-br190-3400x1480.jpeg");
+    background-repeat: no-repeat;
+   background-size:cover;
+   background-position:center;
+  }
+  .form-section{
+    background-image: url("https://www.mercedes-benz-mena.com/en/passengercars/content-pool/marketing-pool/product-page-stages/amg-gt-roadster-r190-stage/_jcr_content/par/stageelement.MQ6.0.20210805111909.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.3));
+    background-position:center;
+  }
+   
+   /* navbar css for mobile end */
+ 
+ }
+ /* mobile breakpoint end */
+
